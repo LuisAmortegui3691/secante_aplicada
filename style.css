@@ -1,0 +1,142 @@
+.color-icono-developer
+{
+	color: #1ac6ff;
+	border: 1px solid #b3ecff;
+	box-shadow: 5px 5px 8px #b3ecff;
+	padding: 9%;
+	margin: 15px;
+	cursor: pointer;
+	border-radius: 20%;
+	font-size: 20px;
+}
+
+.color-icono-developer:hover
+{
+	color: #1ac6ff;
+	border: #99e6ff;
+	box-shadow: 5px 5px 8px #99e6ff;
+	border: 1px solid #99e6ff;
+	background-color: white;
+}
+
+a.config-text:hover, a.config-text:visited, a.config-text:focus, a.config-text:link, a.config-text:active
+{
+	list-style: none;
+	text-decoration: none;
+}
+
+a.config-text
+{
+	color: #99e6ff;
+	font-size: 25px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 5px 5px 10px #b3ecff;
+}
+
+a.config-text:hover
+{
+	color: white;
+}
+
+i.icon-design
+{
+	border-collapse: separate;
+	border-spacing: 10px 5px;
+	color: #1ac6ff;
+	font-size: 20px;
+	padding: 100%;
+	border-radius: 20%;
+	font-size: 28px;
+	margin-right: 7px;
+}
+
+i.icon-design:hover
+{
+	color: #b3ecff;
+	text-decoration: #b3ecff;
+}
+
+/*CUERPO*/
+
+.background-section
+{
+	background-color: #5c8a8a;
+}
+
+h2.design-title
+{
+	color: #99e6ff;
+	font-size: 25px;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Pacifico', cursive;
+	text-shadow: 5px 5px 10px #b3ecff;
+	padding-top: 30px;
+}
+
+p.design-function
+{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'IBM Plex Mono', monospace;
+	color: #99e6ff;
+	text-shadow: 5px 5px 10px #b3ecff;
+}
+
+.design-input
+{
+	text-align: center;
+	border-radius: 10px;
+	border: 1px solid #b3ecff;
+	background-color: #5c8a8a;
+	text-shadow: 5px 5px 10px #b3ecff;
+	font-size: 20px;
+	cursor: pointer;
+	text-decoration: #b3ecff;
+	width: 150px;
+}
+
+input
+{
+	color: #b3ecff;
+}
+
+input::placeholder
+{
+	color: #b3ecff;
+
+}
+
+button.design-button
+{
+	border: 1px solid #b3ecff;
+	box-shadow: 5px 5px 5xp #b3ecff;
+	background-color: #00e6e6;
+	color: #ccffee;
+	padding: 10px;
+	font-family: 'Pacifico', cursive;
+	border-radius: 15px;
+	font-size: 20px;
+	text-shadow: #b3ecff;
+}
+
+button.design-button:hover
+{
+	color: black;
+	border: 1px solid black;
+}
+
+
+p.design-function-dos
+{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	font-family: 'IBM Plex Mono', monospace;
+	color: #99e6ff;
+	text-shadow: 5px 5px 10px #b3ecff;
+	margin-bottom: 500px;
+}

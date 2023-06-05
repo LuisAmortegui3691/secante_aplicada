@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Teoria de numeros</title>
+
+	<!-- CSS PERSONALIZADO -->
+
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- PLUGINS CSS -->
+
+	<link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+
+	<!-- GOOGLE FONTS -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&display=swap" rel="stylesheet">
+
+	<!-- PLUGINS JAVASCRIPT -->
+
+	<link rel="stylesheet" href="js/plugins/jquery.slim.min.js">
+
+	<link rel="stylesheet" href="js/plugins/popper.min.js">
+
+	<link rel="stylesheet" href="js/plugins/bootstrap.bundle.min.js">
+
+</head>
+<body>
+
+	<!-- CABECERA -->
+
+	<div class="container-fluid bg-dark position">
+
+		<div class="container">
+
+			<div class="row">
+
+				<!-- LOGO -->
+
+				<div class="d-none d-md-block col-lg-5 col-xl-5">
+
+					<i class="fa-solid fa-code color-icono-developer"></i>
+
+					<a href="" class="config-text">Luis Amortegui <span>Developer</span></a>
+
+				</div>	
+
+				<!-- LOGO BOTTOM-->
+
+				<div class="d-lg-none bg-dark text-center pt-2 row">
+
+					<i class="fa-solid fa-code color-icono-developer"></i>
+
+					<a href="" class="config-text">Luis Amortegui <span>Developer</span></a>
+
+				</div>
+
+				<!-- REDES SOCIALES -->
+
+				<div class="d-none d-md-block col-lg-5 col-xl-5 mt-3">
+
+
+					<ul class="list-inline mt-2 float-right">
+
+						<li class="list-inline-item mx-2">
+
+							<a href="https://www.facebook.com/profile.php?id=100090663481989" target="_blank">
+
+								<i class="fa-brands fa-facebook icon-design"></i>
+
+							</a>
+
+						</li>
+
+						<li class="list-inline-item">
+
+							<a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+
+								<i class="fa-brands fa-linkedin icon-design"></i>
+
+							</a>
+
+						</li>
+
+						<li class="list-inline-item">
+
+							<a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+
+								<i class="fa-brands fa-square-youtube icon-design"></i>
+
+							</a>
+
+						</li>
+
+						<li class="list-inline-item">
+
+							<a href="https://github.com/LuisAmortegui3691" target="_blank">
+
+								<i class="fa-brands fa-github icon-design"></i>
+
+							</a>
+
+						</li>
+
+					</ul>
+
+				</div>
+
+				<!-- REDES SOCIALES BOTTOM -->
+
+				<div class="fixed-bottom d-lg-none bg-dark text-center pt-2 row">
+
+
+					<ul class="list-inline mt-2 float-right">
+
+						<li class="list-inline-item mx-2">
+
+							<a href="https://www.facebook.com/profile.php?id=100090663481989" target="_blank">
+
+								<i class="fa-brands fa-facebook icon-design"></i>
+
+							</a>
+
+						</li>
+
+						<li class="list-inline-item">
+
+							<a href="https://www.linkedin.com/in/luis-hernando-murcia-amortegui-417b521bb/" target="_blank">
+
+								<i class="fa-brands fa-linkedin icon-design"></i>
+
+							</a>
+
+						</li>
+
+						<li class="list-inline-item">
+
+							<a href="https://www.youtube.com/channel/UCUeZpd8OeWTCCyeelty72ig" target="_blank">
+
+								<i class="fa-brands fa-square-youtube icon-design"></i>
+
+							</a>
+
+						</li>
+
+						<li class="list-inline-item">
+
+							<a href="https://github.com/LuisAmortegui3691" target="_blank">
+
+								<i class="fa-brands fa-github icon-design"></i>
+
+							</a>
+
+						</li>
+
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<!-- CUERPO -->
+
+	<div class="container-fluid background-section">
+
+		<div class="container">
+
+			<h2 class="text-center design-title">Calculadora medoto Secante</h2>
+
+			<p class="design-function" style="text-align: justify;">En esta función establecemos el modelo a solucionar con el método de bisección en el cual se determinara a cuantos años se llegaran a las 500 personas de la población</p>
+
+			<p class="design-function">f(t) = 5t + 2e<sup>0.1t</sup> - 500</p>
+
+			<br>
+
+			<input type="text" placeholder="a" id="a" class="design-input" value="47">
+
+			<input type="text" placeholder="b" id="b" class="design-input" value="49">
+
+			<br> <br>
+
+			<input type="text" placeholder="f(a)" id="fa" class="design-input"  readonly onmousedown="return false;" />
+
+			<input type="text" placeholder="f(b)" id="fb" class="design-input"  readonly onmousedown="return false;" />
+
+			<input type="text" placeholder="xi" id="xi" class="design-input">
+
+			<br> <br>
+
+			<button type="button" class="design-button" onclick="myFunction(1)">Calcular</button>
+
+			<button type="button" class="design-button" onclick="myFunction(0)">Limpiar</button>
+
+			
+			<p id="iteraciones" class="design-function-dos"></p>
+
+		</div>
+
+	</div>
+	
+
+<!-- FONT AWESOME -->
+
+<script src="https://kit.fontawesome.com/b982405469.js" crossorigin="anonymous"></script>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
